@@ -1,4 +1,39 @@
-# .gitignore
-.env
+# Python cache
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Test results
+coverage/
+*.cover
+*.*
+.env
