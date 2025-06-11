@@ -4,7 +4,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 
 # Page config
 st.set_page_config(
-    page_title="Zomato-style Assistant",
+    page_title="Zomato_Assistant",
     page_icon="🍽️",
     layout="centered",
 )
